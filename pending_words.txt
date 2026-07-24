@@ -1,0 +1,6 @@
+roll out | wdrożyć / wprowadzić | IT: We're planning to roll out the new update to all users next week.; codziennie: The gym is rolling out a new membership plan starting in August.
+figure out | rozgryźć / wykombinować | debugging: It took the whole team an hour to figure out why the server kept crashing.; codziennie: We still need to figure out how to get to the airport without a car.
+look into | zbadać / przyjrzeć się | QA: Can you look into why the login test started failing yesterday?; codziennie: I need to look into flight prices before booking our trip.
+bring up | poruszyć (temat) / wspomnieć | meeting: She brought up the issue of missing test coverage during the sprint review.; codziennie: He brought up an old argument during dinner, which ruined the mood.
+carry out | przeprowadzić | testing: The QA team carried out a full round of regression tests before the release.; codziennie: The electrician carried out a safety check on the whole apartment.
+iron out | wyeliminować (problemy) / dopracować | dev process: We still need to iron out a few bugs before the demo tomorrow.; codziennie: The couple sat down to iron out the details of their wedding plan.
