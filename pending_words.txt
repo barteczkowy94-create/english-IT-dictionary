@@ -16,3 +16,9 @@ kick-off meeting | spotkanie inauguracyjne / spotkanie rozpoczynające | project
 get up to speed | nadrobić zaległości / zorientować się w temacie | onboarding: It took the new QA engineer a few days to get up to speed on the test suite.; codziennie: She spent the weekend getting up to speed on the news she'd missed.
 loop in | włączyć kogoś (do sprawy) / poinformować | teamwork: Don't forget to loop in the backend team before changing the API contract.; codziennie: I looped my sister in on the plans for our parents' anniversary.
 weigh in | wypowiedzieć się / wyrazić opinię | meeting: The product manager weighed in on which bugs should be prioritized for the release.; codziennie: Everyone at the dinner table weighed in on where to go for vacation.
+eventually | w końcu (NIE: ewentualnie!) | IT: After three failed deployments, the pipeline eventually succeeded.; codziennie: We eventually found a parking spot near the restaurant.
+actually | właściwie / tak naprawdę (NIE: aktualnie!) | bug report: The test actually failed because of a timeout, not a logic error.; codziennie: I thought the movie started at 8, but it actually starts at 7:30.
+confident | pewny siebie / przekonany (NIE: konfident!) | QA: I'm confident this fix covers all the edge cases we found.; codziennie: She felt confident about her presentation after rehearsing all week.
+billion | miliard (NIE: bilion!) | data: The service now processes over a billion requests per day.; codziennie: The company's valuation reached one billion dollars last year.
+pension | emerytura (NIE: pensja!) | HR: After 30 years at the company, he's finally retiring on a full pension.; codziennie: My grandparents live comfortably on their pension.
+genial | miły / sympatyczny (NIE: genialny!) | teamwork: Our new tech lead is genial and always willing to help.; codziennie: He's a genial host who makes everyone feel welcome.
