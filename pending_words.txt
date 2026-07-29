@@ -22,3 +22,9 @@ confident | pewny siebie / przekonany (NIE: konfident!) | QA: I'm confident this
 billion | miliard (NIE: bilion!) | data: The service now processes over a billion requests per day.; codziennie: The company's valuation reached one billion dollars last year.
 pension | emerytura (NIE: pensja!) | HR: After 30 years at the company, he's finally retiring on a full pension.; codziennie: My grandparents live comfortably on their pension.
 genial | miły / sympatyczny (NIE: genialny!) | teamwork: Our new tech lead is genial and always willing to help.; codziennie: He's a genial host who makes everyone feel welcome.
+break the ice | przełamać lody | office: The team lead opened the meeting with a joke to break the ice before the retro.; codziennie: She brought up the weather to break the ice with her new neighbor.
+catch up | nadrobić zaległości / pogadać po dłuższej przerwie | work: Let's grab a coffee and catch up on what happened while I was on vacation.; codziennie: We haven't caught up in ages, so let's meet this weekend.
+long time no see | dawno się nie widzieliśmy | office: "Long time no see!" she said when her former colleague dropped by the office.; codziennie: Long time no see! How was your trip to Italy?
+small world | mały świat | networking: "Small world! I didn't know you used to work at the same company as my manager."; codziennie: Small world - it turns out our parents went to the same school.
+keep in touch | być w kontakcie / utrzymywać kontakt | office: We promised to keep in touch after she moved to a different team.; codziennie: Even after graduating, they kept in touch through a group chat.
+no worries | nie ma sprawy / spoko | work: "Sorry I'm late for standup." "No worries, we just started."; codziennie: "Can I reschedule our coffee?" "No worries, whenever suits you."
