@@ -34,3 +34,9 @@ technical debt | dług techniczny | dev process: We took on some technical debt 
 smoke test | test dymny / szybki test podstawowy | QA: Before the full regression suite, we always run a quick smoke test on the build.; codziennie: She did a smoke test of the new recipe by making a small batch first.
 race condition | wyścig warunków / konflikt czasowy | concurrency: The bug turned out to be a race condition between two threads writing to the same file.; codziennie: Getting everyone ready in the morning feels like a race condition - whoever grabs the bathroom first wins.
 false positive | fałszywy alarm / błędne wskazanie | testing: The security scanner flagged the file as malicious, but it turned out to be a false positive.; codziennie: The pregnancy test gave a false positive, which caused quite a scare.
+37	set up | skonfigurować / założyć | IT: Can you set up a staging environment before we start testing the new feature?; codziennie: We need to set up the tent before it gets dark.
+38	sort out | uporządkować / rozwiązać | QA: We finally sorted out the flaky test that was failing randomly in CI.; codziennie: Let's sort out who's bringing what to the party.
+39	come up with | wymyślić / wpaść na (pomysł) | dev: The team came up with a clever workaround for the API rate limit.; codziennie: We need to come up with a plan for the weekend.
+40	follow up | kontynuować sprawę / dopytać | bug report: I'll follow up with the backend team about the failing endpoint.; codziennie: She sent a follow-up email after the job interview.
+41	run into | natknąć się na (problem) | testing: We ran into a strange bug while testing on the older browser version.; codziennie: I ran into an old friend at the grocery store yesterday.
+42	wrap up | zakończyć / podsumować | meeting: Let's wrap up the sprint review and share the notes with the team.; codziennie: We wrapped up the trip with a nice dinner by the beach.
