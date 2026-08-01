@@ -34,9 +34,15 @@ technical debt | dług techniczny | dev process: We took on some technical debt 
 smoke test | test dymny / szybki test podstawowy | QA: Before the full regression suite, we always run a quick smoke test on the build.; codziennie: She did a smoke test of the new recipe by making a small batch first.
 race condition | wyścig warunków / konflikt czasowy | concurrency: The bug turned out to be a race condition between two threads writing to the same file.; codziennie: Getting everyone ready in the morning feels like a race condition - whoever grabs the bathroom first wins.
 false positive | fałszywy alarm / błędne wskazanie | testing: The security scanner flagged the file as malicious, but it turned out to be a false positive.; codziennie: The pregnancy test gave a false positive, which caused quite a scare.
-37	set up | skonfigurować / założyć | IT: Can you set up a staging environment before we start testing the new feature?; codziennie: We need to set up the tent before it gets dark.
-38	sort out | uporządkować / rozwiązać | QA: We finally sorted out the flaky test that was failing randomly in CI.; codziennie: Let's sort out who's bringing what to the party.
-39	come up with | wymyślić / wpaść na (pomysł) | dev: The team came up with a clever workaround for the API rate limit.; codziennie: We need to come up with a plan for the weekend.
-40	follow up | kontynuować sprawę / dopytać | bug report: I'll follow up with the backend team about the failing endpoint.; codziennie: She sent a follow-up email after the job interview.
-41	run into | natknąć się na (problem) | testing: We ran into a strange bug while testing on the older browser version.; codziennie: I ran into an old friend at the grocery store yesterday.
-42	wrap up | zakończyć / podsumować | meeting: Let's wrap up the sprint review and share the notes with the team.; codziennie: We wrapped up the trip with a nice dinner by the beach.
+set up | skonfigurować / założyć | IT: Can you set up a staging environment before we start testing the new feature?; codziennie: We need to set up the tent before it gets dark.
+sort out | uporządkować / rozwiązać | QA: We finally sorted out the flaky test that was failing randomly in CI.; codziennie: Let's sort out who's bringing what to the party.
+come up with | wymyślić / wpaść na (pomysł) | dev: The team came up with a clever workaround for the API rate limit.; codziennie: We need to come up with a plan for the weekend.
+follow up | kontynuować sprawę / dopytać | bug report: I'll follow up with the backend team about the failing endpoint.; codziennie: She sent a follow-up email after the job interview.
+run into | natknąć się na (problem) | testing: We ran into a strange bug while testing on the older browser version.; codziennie: I ran into an old friend at the grocery store yesterday.
+wrap up | zakończyć / podsumować | meeting: Let's wrap up the sprint review and share the notes with the team.; codziennie: We wrapped up the trip with a nice dinner by the beach.
+bottom line | sedno sprawy / najważniejszy wniosek | meeting: The bottom line is that we can't ship this release until the critical bug is fixed.; codziennie: The bottom line is we can't afford a bigger apartment right now.
+game changer | przełom / coś co zmienia zasady gry | product: Automated regression testing was a real game changer for our release speed.; codziennie: Getting a dishwasher was a total game changer for our daily routine.
+cut corners | iść na skróty / oszczędzać kosztem jakości | QA: We can't cut corners on security testing just to hit the deadline.; codziennie: The contractor cut corners on the renovation, and now the door won't close properly.
+in the pipeline | w przygotowaniu / planowane | project: We've got a major refactor of the payment module in the pipeline for next quarter.; codziennie: We've got a trip to Portugal in the pipeline for next spring.
+back to the drawing board | wrócić do punktu wyjścia | dev: The new caching approach caused more bugs than it fixed, so it's back to the drawing board.; codziennie: The cake collapsed in the oven, so it's back to the drawing board for the recipe.
+get the ball rolling | zacząć / ruszyć z czymś | project: Let's get the ball rolling on the migration before the holidays start.; codziennie: We finally got the ball rolling on planning the wedding.
