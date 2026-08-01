@@ -350,22 +350,22 @@
   // ---------- storage ----------
   async function loadState(){
     try{
-      const res = await window.storage.get(STORAGE_KEY, false);
-      if(res && res.value){
-        state = JSON.parse(res.value);
+      const raw = window.localStorage.getItem(STORAGE_KEY);
+      if(raw){
+        state = JSON.parse(raw);
       } else {
         state = { words: seedWords(), stats:{streak:0,lastStudyDate:null,totalReviews:0} };
         await saveState();
       }
     }catch(e){
+      console.error('Load failed', e);
       state = { words: seedWords(), stats:{streak:0,lastStudyDate:null,totalReviews:0} };
       try{ await saveState(); }catch(e2){ console.error('Initial save failed', e2); }
     }
   }
   async function saveState(){
     try{
-      const result = await window.storage.set(STORAGE_KEY, JSON.stringify(state), false);
-      if(!result) console.error('Storage set returned null');
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
     }catch(e){ console.error('Storage error', e); }
   }
 
@@ -937,7 +937,7 @@
     if(!url){ bulkError = 'Podaj adres URL pliku ze słówkami.'; renderBulkPanel(); return; }
 
     savedSourceUrl = url;
-    try{ await window.storage.set('vocab-source-url', url, false); }catch(e){ console.error('Could not save source URL', e); }
+    try{ window.localStorage.setItem('vocab-source-url', url); }catch(e){ console.error('Could not save source URL', e); }
 
     bulkLoading = true;
     bulkError = null;
@@ -1096,8 +1096,8 @@
   async function init(){
     await loadState();
     try{
-      const res = await window.storage.get('vocab-source-url', false);
-      if(res && res.value) savedSourceUrl = res.value;
+      const savedUrl = window.localStorage.getItem('vocab-source-url');
+      if(savedUrl) savedSourceUrl = savedUrl;
     }catch(e){ /* not set yet — fine */ }
     document.getElementById('loadingState').hidden = true;
     document.querySelectorAll('.tab').forEach(btn=>{
