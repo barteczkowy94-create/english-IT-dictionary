@@ -52,3 +52,9 @@ go off on a tangent | zboczyć z tematu / odbiegać od tematu | meeting: We went
 put on hold | zawiesić / wstrzymać (coś) | project: The migration was put on hold until the security review was completed.; codziennie: We had to put our vacation plans on hold because of the flight cancellations.
 sync up | zsynchronizować się / uzgodnić informacje | teamwork: Let's sync up quickly before the demo to make sure we're showing the same build.; codziennie: The two of us synced up over the phone before showing up to the party.
 parking lot | lista odłożonych tematów (na później) | meeting: That's a great question, but let's put it in the parking lot and come back to it after the meeting.; codziennie: They kept a parking lot of home renovation ideas to revisit once they had more budget.
+ordinary | zwykły / przeciętny (NIE: ordynarny) | QA: It was just an ordinary bug report, nothing critical.; codziennie: We had an ordinary Tuesday with nothing special happening.
+evidence | dowód / dowody (NIE: ewidencja) | QA: The tester attached screenshots as evidence of the bug.; codziennie: The detective needed more evidence before making an arrest.
+sensible | rozsądny (NIE: zmysłowy/wrażliwy - to "sensitive") | office: It's more sensible to fix the root cause than to patch the symptom.; codziennie: She made a sensible decision to leave early before the storm.
+fabric | tkanina / (przen.) struktura, tkanka (NIE: fabryka - to "factory") | office: The retro touched on the fabric of the team's culture.; codziennie: The dress was made of a soft cotton fabric.
+receipt | paragon / potwierdzenie zapłaty (NIE: recepta - to "prescription") | office: Please attach the receipt for your business trip expenses.; codziennie: Keep the receipt in case you need to return the item.
+lecture | wykład (NIE: lektura - to "reading material") | office: The new hire attended a lecture on secure coding practices.; codziennie: The professor gave an interesting lecture about ancient Rome.
