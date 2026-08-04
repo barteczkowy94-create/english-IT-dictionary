@@ -58,3 +58,9 @@ sensible | rozsądny (NIE: zmysłowy/wrażliwy - to "sensitive") | office: It's 
 fabric | tkanina / (przen.) struktura, tkanka (NIE: fabryka - to "factory") | office: The retro touched on the fabric of the team's culture.; codziennie: The dress was made of a soft cotton fabric.
 receipt | paragon / potwierdzenie zapłaty (NIE: recepta - to "prescription") | office: Please attach the receipt for your business trip expenses.; codziennie: Keep the receipt in case you need to return the item.
 lecture | wykład (NIE: lektura - to "reading material") | office: The new hire attended a lecture on secure coding practices.; codziennie: The professor gave an interesting lecture about ancient Rome.
+how's it going | jak leci / jak się masz | office: "How's it going with the new test suite?" she asked during the coffee break.; codziennie: "How's it going?" "Not bad, just tired after work."
+what have you been up to | co słychać / co porabiałeś | office: "What have you been up to since you switched teams?" he asked in the hallway.; codziennie: "What have you been up to lately?" "Mostly just renovating the kitchen."
+it's been a while | dawno się nie widzieliśmy / kawał czasu minął | office: "It's been a while since our last stand-up together," he said, smiling.; codziennie: It's been a while since we last went hiking together.
+take care | trzymaj się / uważaj na siebie | office: "Take care, and good luck with the deployment tomorrow!" she said before leaving.; codziennie: Take care on your way home, it's raining hard outside.
+have a good one | miłego dnia | office: "Have a good one!" the receptionist said as everyone left for the weekend.; codziennie: "See you tomorrow, have a good one!"
+i'll let you get going | nie będę cię zatrzymywać | office: "I'll let you get going, I know you have a demo in ten minutes."; codziennie: "I'll let you get going, your bus leaves soon."
