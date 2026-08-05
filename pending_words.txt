@@ -64,3 +64,9 @@ it's been a while | dawno się nie widzieliśmy / kawał czasu minął | office:
 take care | trzymaj się / uważaj na siebie | office: "Take care, and good luck with the deployment tomorrow!" she said before leaving.; codziennie: Take care on your way home, it's raining hard outside.
 have a good one | miłego dnia | office: "Have a good one!" the receptionist said as everyone left for the weekend.; codziennie: "See you tomorrow, have a good one!"
 i'll let you get going | nie będę cię zatrzymywać | office: "I'll let you get going, I know you have a demo in ten minutes."; codziennie: "I'll let you get going, your bus leaves soon."
+test coverage | pokrycie testami | QA: We need to boost test coverage for the checkout flow before the release.; codziennie: My phone plan doesn't have great coverage out in the countryside.
+bug report | zgłoszenie błędu / raport o błędzie | QA: The bug report included screenshots and console logs so the dev could reproduce it.; codziennie: He filed a report with the police after the bike was stolen.
+workaround | obejście problemu / rozwiązanie zastępcze | IT: We found a workaround for the login issue until the real fix ships next sprint.; codziennie: Since the bridge was closed, we found a workaround through the side streets.
+sanity check | szybka weryfikacja / test zdroworozsądkowy | QA: Before the demo, let's do a quick sanity check to make sure the build actually works.; codziennie: Can you do a sanity check on these numbers before I send the invoice?
+triage | priorytetyzacja zgłoszeń / segregacja (błędów) | QA: During bug triage, the team decided which issues to fix before the release.; codziennie: The ER nurses triage patients based on how urgent their condition is.
+reproduce | odtworzyć (błąd) | QA: I couldn't reproduce the bug on my machine, so I need more details from the user.; codziennie: She tried to reproduce her grandmother's recipe exactly, but it never tasted the same.
