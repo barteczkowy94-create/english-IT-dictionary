@@ -70,3 +70,9 @@ workaround | obejście problemu / rozwiązanie zastępcze | IT: We found a worka
 sanity check | szybka weryfikacja / test zdroworozsądkowy | QA: Before the demo, let's do a quick sanity check to make sure the build actually works.; codziennie: Can you do a sanity check on these numbers before I send the invoice?
 triage | priorytetyzacja zgłoszeń / segregacja (błędów) | QA: During bug triage, the team decided which issues to fix before the release.; codziennie: The ER nurses triage patients based on how urgent their condition is.
 reproduce | odtworzyć (błąd) | QA: I couldn't reproduce the bug on my machine, so I need more details from the user.; codziennie: She tried to reproduce her grandmother's recipe exactly, but it never tasted the same.
+give up | poddać się / zrezygnować | QA: Don't give up on reproducing that bug just because it's hard to trigger.; codziennie: She almost gave up learning English, but kept going.
+put off | odkładać (na później) | dev: We keep putting off refactoring the legacy module.; codziennie: He put off cleaning the garage for weeks.
+come across | natknąć się na / natrafić na | QA: I came across a strange edge case while testing the checkout flow.; codziennie: I came across an old photo album while cleaning the attic.
+deal with | zajmować się / radzić sobie z | IT: The support team has to deal with dozens of tickets every day.; codziennie: It's hard to deal with noisy neighbors.
+back up | robić kopię zapasową / wspierać | IT: Always back up the database before running a migration.; codziennie: My sister backed me up when I disagreed with the plan.
+check in | zameldować się / sprawdzać status | teamwork: Let's check in with the dev team before the release goes out.; codziennie: We checked in at the hotel late at night.
