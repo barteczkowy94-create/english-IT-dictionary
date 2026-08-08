@@ -264,6 +264,7 @@
   <section id="tab-words" hidden></section>
   <section id="tab-stats" hidden></section>
 </div>
+<input type="file" id="importFileInput" accept="application/json,.json" style="display:none">
 
 <script>
 (function(){
@@ -367,6 +368,13 @@
     try{
       window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
     }catch(e){ console.error('Storage error', e); }
+  }
+  async function requestPersistentStorage(){
+    try{
+      if(navigator.storage && navigator.storage.persist){
+        await navigator.storage.persist();
+      }
+    }catch(e){ /* not critical — best effort */ }
   }
 
   // ---------- SRS ----------
@@ -1059,8 +1067,15 @@
         '</div>';
     }
 
-    html += '<div class="panel-block"><h3>Eksport</h3>'+
-      '<button class="btn btn-secondary" onclick="Lexicon.exportData()">Pobierz dane jako JSON</button>'+
+    html += '<div class="panel-block"><h3>Kopia zapasowa</h3>'+
+      '<div class="sub" style="margin-bottom:10px">Dane są zapisywane automatycznie w tej przeglądarce (localStorage). '+
+      'Rób też od czasu do czasu kopię do pliku — pozwoli odzyskać postępy po wyczyszczeniu danych przeglądarki albo przenieść je na inne urządzenie.'+
+      (state.stats.lastBackup ? ' Ostatnia kopia: <strong>'+escapeHtml(state.stats.lastBackup)+'</strong>.' : ' Nie zrobiono jeszcze żadnej kopii.')+
+      '</div>'+
+      '<div class="cta-row">'+
+      '<button class="btn btn-secondary" onclick="Lexicon.exportData()">Pobierz kopię (JSON)</button>'+
+      '<button class="btn btn-secondary" onclick="Lexicon.triggerImport()">Wczytaj kopię (JSON)</button>'+
+      '</div>'+
       '</div>';
 
     html += '<div class="panel-block danger-zone"><h3>Strefa niebezpieczna</h3>'+
@@ -1079,6 +1094,43 @@
     a.href = url; a.download = 'vocab-export-'+todayISO()+'.json';
     document.body.appendChild(a); a.click(); document.body.removeChild(a);
     URL.revokeObjectURL(url);
+    state.stats.lastBackup = todayISO();
+    saveState();
+    renderStats();
+  }
+
+  function triggerImport(){
+    document.getElementById('importFileInput').click();
+  }
+
+  async function handleImportFile(evt){
+    const input = evt.target;
+    const file = input.files && input.files[0];
+    input.value = ''; // allow re-selecting the same file later
+    if(!file) return;
+    try{
+      const text = await file.text();
+      const parsed = JSON.parse(text);
+      if(!parsed || !Array.isArray(parsed.words) || typeof parsed.stats !== 'object' || !parsed.stats){
+        alert('To nie wygląda na poprawny plik kopii zapasowej Lexicon (brak words/stats).');
+        return;
+      }
+      const ok = confirm(
+        'Wczytanie tego pliku ZASTĄPI obecne dane w przeglądarce.\n\n'+
+        'Obecnie: '+state.words.length+' słów.\n'+
+        'W pliku: '+parsed.words.length+' słów.\n\n'+
+        'Kontynuować?'
+      );
+      if(!ok) return;
+      state = parsed;
+      if(!state.stats) state.stats = {streak:0,lastStudyDate:null,totalReviews:0};
+      await saveState();
+      setTab('stats');
+      alert('Dane zostały wczytane z pliku.');
+    }catch(e){
+      console.error('Import failed', e);
+      alert('Nie udało się wczytać pliku. Upewnij się, że to plik JSON wyeksportowany z tej aplikacji.');
+    }
   }
   async function resetAll(){
     if(!confirm('To usunie wszystkie słówka i statystyki bezpowrotnie. Kontynuować?')) return;
@@ -1095,6 +1147,7 @@
   // ---------- init ----------
   async function init(){
     await loadState();
+    requestPersistentStorage();
     try{
       const savedUrl = window.localStorage.getItem('vocab-source-url');
       if(savedUrl) savedSourceUrl = savedUrl;
@@ -1103,6 +1156,7 @@
     document.querySelectorAll('.tab').forEach(btn=>{
       btn.addEventListener('click', ()=> setTab(btn.dataset.tab));
     });
+    document.getElementById('importFileInput').addEventListener('change', handleImportFile);
     setTab('today');
   }
 
@@ -1110,7 +1164,7 @@
     setTab, startReview, flipCard, rate, checkQuiz, nextReviewItem,
     openForm, editWord, closeForm, deleteWord, saveWord,
     addExampleRow, removeExampleRow, updateDraftExample,
-    exportData, resetAll, goAddWord,
+    exportData, triggerImport, handleImportFile, resetAll, goAddWord,
     openBulkImport, closeBulkImport, setBulkMode, generateWithAI,
     parseBulkText, fetchFromUrl, toggleBulkCandidate, addBulkSelected
   };
