@@ -94,3 +94,9 @@ eventual | końcowy / ostateczny (NIE: ewentualny – to "possible") | project: 
 physician | lekarz (NIE: fizyk – to "physicist") | HR: The company physician checked everyone's health during the annual review.; codziennie: She made an appointment with her physician about the persistent headache.
 preservative | konserwant (NIE: prezerwatywa – to "condom") | office: The snacks in the break room are usually low on preservatives.; codziennie: He checked the label to see how many preservatives were in the juice.
 lunatic | szaleniec / wariat (NIE: lunatyk – to "sleepwalker") | office: Our manager joked that only a lunatic would deploy on a Friday afternoon.; codziennie: He drove like a lunatic to catch the last train.
+how have you been | jak się miewałeś/aś / co u ciebie | office: "How have you been since you moved to the new team?" she asked over coffee.; codziennie: "How have you been?" "Pretty good, just busy with the kids."
+what's new | co słychać / co nowego | office: "What's new with the migration project?" he asked at the start of the stand-up.; codziennie: "What's new with you?" "Not much, same old routine."
+same here | ja też / u mnie tak samo | office: "I'm exhausted after that release." "Same here, it was a long week."; codziennie: "I love this coffee shop." "Same here, I come every morning."
+so far so good | jak na razie dobrze / na razie idzie nieźle | office: "How's the new build holding up?" "So far so good, no crashes yet."; codziennie: "How's the new job?" "So far so good, everyone's really friendly."
+no biggie | nic wielkiego / drobiazg | office: "Sorry I'm five minutes late." "No biggie, we just started."; codziennie: "I forgot to bring the snacks." "No biggie, we'll grab some on the way."
+keep me posted | informuj mnie na bieżąco / daj znać co słychać | office: "Keep me posted on the deployment status throughout the night."; codziennie: "Keep me posted on how the interview goes!"
