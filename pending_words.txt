@@ -202,3 +202,9 @@ brand | marka (NIE: brąz) | marketing: We're rebranding the product before the 
 cabinet | szafka/obudowa serwerowa/gabinet (NIE: kabina) | IT: The new servers were installed in the cabinet on the third floor of the data center.; codziennie: Can you grab the mugs from the kitchen cabinet?
 closet | szafa (NIE: klozet) | praca: After being ignored for months, the real root cause of the outage finally came out of the closet during the audit.; codziennie: I need to clean out my closet this weekend.
 hazard | zagrożenie/ryzyko (NIE: hazard) | security: Storing passwords in plain text is a serious security hazard.; codziennie: Wet floors without a warning sign are a real hazard.
+how's life | jak leci / jak tam życie | coffee break: Hey, how's life? Still working on that migration project?; codziennie: How's life since you moved to the new apartment?
+what's up | co słychać / co tam u ciebie | standup: Hey, what's up? Anything blocking you before we start?; codziennie: What's up? Haven't seen you in ages.
+shoot the breeze | pogadać o niczym / poplotkować | office: We spent ten minutes just shooting the breeze before the meeting actually started.; codziennie: We sat on the porch shooting the breeze all afternoon.
+chit-chat | pogawędka / small talk | office: There was a bit of chit-chat before the client got down to business.; codziennie: I love our morning chit-chat over coffee.
+my bad | moja wina / sorry, mój błąd | code review: My bad, I forgot to update the config file before pushing.; codziennie: My bad, I completely forgot to call you back.
+no rush | bez pośpiechu / nie ma pośpiechu | email: No rush, just let me know when you get a chance to review the PR.; codziennie: No rush, we've got plenty of time before the movie starts.
